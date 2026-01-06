@@ -10,12 +10,12 @@
     <form id="form1" runat="server">
         <div>
             <strong>View Example</strong><br />
-            <asp:TextBox ID="TextBox1" runat="server" Width="660px"></asp:TextBox>
+            <asp:TextBox ID="TextBox1" runat="server" Width="660px" OnTextChanged="TextBox1_TextChanged"></asp:TextBox>
             <br />
             <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
             <br />
             <br />
-            <strong>2. Hidden Field</strong><asp:HiddenField ID="HiddenField1" runat="server" />
+            <strong>2. Hidden Field</strong><asp:HiddenField ID="HiddenField1" runat="server" OnValueChanged="HiddenField1_ValueChanged" />
             <br />
             <asp:Button ID="hiddnebtn" runat="server" OnClick="Button2_Click" Text="store hidden value" />
 &nbsp;<br />
@@ -26,19 +26,19 @@
             <br />
             </strong>
             <br />
-            <asp:TextBox ID="TextBox2" runat="server" Width="661px"></asp:TextBox>
+            <asp:TextBox ID="TextBox2" runat="server" Width="661px" OnTextChanged="TextBox2_TextChanged"></asp:TextBox>
             <br />
             <asp:Button ID="createbtn" runat="server" OnClick="Button3_Click" Text="Create Cookie" />
 &nbsp;
-            <asp:Button ID="readbtn" runat="server" Text="Read Cookie" />
+            <asp:Button ID="readbtn" runat="server" Text="Read Cookie" OnClick="readbtn_Click" />
 &nbsp;<br />
             <asp:Label ID="Cookie" runat="server" Text="Label"></asp:Label>
             <br />
             <br />
             <br />
-            <asp:TextBox ID="TextBox3" runat="server" Width="667px"></asp:TextBox>
+            <asp:TextBox ID="TextBox3" runat="server" Width="667px" OnTextChanged="TextBox3_TextChanged"></asp:TextBox>
             <br />
-            <asp:Button ID="Button5" runat="server" Text="Button" />
+            <asp:Button ID="btn5" runat="server" Text="Button" OnClick="btn5_Click" />
 &nbsp;<asp:Label ID="Label2" runat="server" Text="Label"></asp:Label>
             <br />
             <br />

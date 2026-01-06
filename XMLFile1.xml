@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+	<Ad>
+		<ImageUrl>Images\view-car-running-high-speed.jpg</ImageUrl>
+		<NavigateUrl>http://www.ajio.com/</NavigateUrl>
+		<Impression>5</Impression>
+		<Keywords></Keywords>
+		
+	</Ad>
+	<Ad>
+		<ImageUrl>Images\marketing.jpeg</ImageUrl>
+		<NavigateUrl>http://www.ajio.com/</NavigateUrl>
+		<Impression>5</Impression>
+		<Keywords></Keywords>
+		<AlternateText></AlternateText>
+
+	</Ad>
+	<Ad>
+		<ImageUrl>Images\logo1.png</ImageUrl>
+		<NavigateUrl>http://www.ajio.com/</NavigateUrl>
+		<Impression>5</Impression>
+		<Keywords></Keywords>
+
+	</Ad>
+</Advertisements>
